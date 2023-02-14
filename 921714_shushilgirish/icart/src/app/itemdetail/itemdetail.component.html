@@ -1,0 +1,32 @@
+<div class="container bg-light">
+    <div class=" fs-3 fw-bold px-3" id="heading">{{HEADING}}</div>
+    <div class="row">
+        <div class="col-7 pr-0">
+          <div class="card">
+              <img src="{{URL}}">
+                     
+          </div>
+        </div>
+        <div class="col-5" >
+            <div class="card border-success mb-3" style="max-width: 25rem;">
+                <div class="card-header text-light fw-bold" style="background-color: #555555;"><img src="../../assets/images/badge.png" alt="badge" class="me-1">Product code {{CODE}}</div>
+                <div class="card-body ">
+                    <p class="card-text">We <strong>dispatch same day</strong> if ordered <span class="border border-success bg-success bg-opacity-10 text-success rounded p-2 fw-bold"><img src="../../assets/images/tick.png" alt="tick" class="me-2">Available</span><br>by 1pm(excluding holidays),then<br>courier usually takes 2-5 days. <br></p>
+                    <p class="border border-success text-success rounded p-2  bg-success bg-opacity-10">Ready stock:<strong>905</strong> nos.<br>
+                    Factory Leadtime for more quantity:<strong>15</strong> days
+                    </p>
+                </div>
+                <div class="card-footer text-center p-3 justify-content-around">
+                  <div class="form-inline py-4">
+                    
+                    <label for="qty" class="form-label">Quantity:</label>
+                    <input type="text" id="qty" class="form-control-xs rounded text-center px-2 fw-bold" value="5" style="width: 70px; border: solid rgba(128, 128, 128, 0.726);">
+                    <label for="pr" class="form-label">Price:</label>
+                    <input type="text" id="pr" class="rounded fw-bold form-control-xs text-success border border-success px-1 bg-success bg-opacity-10" style="width: 60px;" value="{{PRICE}}">       
+                  </div>
+                  <button class="btn text-light  text-center" style="background-color: #fd8617; width: 100%;"><span class="me-2"><img src="../../assets/images/cart.png" alt="cart"></span>Add to Cart</button>
+                </div>
+              </div>
+        </div>
+      </div>
+</div>

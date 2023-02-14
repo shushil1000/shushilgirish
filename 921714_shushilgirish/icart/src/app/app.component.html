@@ -1,0 +1,54 @@
+<div class="row bg-dark">
+  <div class="offset-3 col bg-dark mt-3">
+    <div class="input-group mb-3 ">
+      <input type="text" class="form-control bg-dark text-white" style="border-color: orange;" placeholder="Search Products"  aria-label="Recipient's username" aria-describedby="basic-addon2">
+      <div class="input-group-append ">
+        <span class="input-group-text text-warning bg-dark" style="border-color: orange;" id="basic-addon2">
+          <img src="../assets/images/search .png" class="me-2"alt="search">
+          Search
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="col mt-3" style="position: relative;left: 250px;">
+    <button class="btn btn-outline-warning">
+      <img src="../assets/images/cart.png" alt="cart" class="me-2">
+      Cart
+    </button>
+  </div>
+</div>
+<!-- menubar -->
+
+<nav class="navbar navbar-expand-lg navbar-light pb-0"  style="background-color: #222222;" id="nav1">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ">
+      <li class="nav-item ">
+        <a class="nav-link text-light" routerLink="/items" (click)="click_to_changeP()" [ngClass]="status1?'bb_color':'bb_nocolor'"><span><img src="../assets/images/products.png" class="me-1" alt="products"></span> Products<span><img src="../assets/images/arrow.png" class="" alt="arrow"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" ><span><img src="../assets/images/infoicon.png" class="me-1" alt="icon">How to Buy</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" [ngClass]="status2?'bb_color':'bb_nocolor'"  (click)="click_to_changeC()" routerLink="/contact"><span><img src="../assets/images/contact.png" class="me-1" alt="contact">Contact</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light " id="logic" ><span><img src="../assets/images/person.png" class="me-1" alt="contact">Login</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="content">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- footer -->
+<footer class="sticky-bottom">
+  <div class="text-center p-4 text-light" >
+    XYZ Technologies © 2020-2021
+    
+  </div>
+</footer>

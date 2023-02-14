@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+.input-group{
+    background-color: black;
+}
+footer {
+    margin-top: auto;
+    background-color:black;
+    border-top: 8px solid rgba(107, 57, 23, 0.719);
+
+    
+ }
+ #navbarNav{
+     position: relative;
+     left: 100px;
+ }
+ #nav1{
+     border-bottom: 3px solid rgba(107, 57, 23, 0.719);
+     border-top: 1px solid;
+ }
+ #item_list, #heading{
+     border-left: 8px solid #e17400;
+ }
+ #logic{
+     position: absolute;
+     right: 180px;
+    
+ }
+ .content{
+     background-color: grey;
+ }
+ .bb_color{
+     border-bottom:4px solid #fa8100;
+
+ }
+ .bb_nocolor{
+     border-bottom-color:none;
+ }

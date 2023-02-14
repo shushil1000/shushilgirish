@@ -1,0 +1,104 @@
+<div class="container bg-light">
+  <div class=" fs-3 fw-bold " id="item_list">Item List</div>
+  <br><br><p class="ms-4">Showing <strong>1-8</strong> of <strong>8</strong> items.</p>
+  <div class="container" id="cards1">
+      <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12" (click)="goToItemD('1')" (mouseover)="Onfocus(1)" (mouseout)="Away(1)">
+            <div class="card mb-5 bg-white rounded" [ngClass]="status2 && num==1?['shadow-lg','border-primary','inhover']:'dummy_class'">
+             <img src="../../assets/images/1.jpg" alt="1" id="1.jpg">
+              <div class="card-img-overlay">
+                <div class="position-absolute top-0 start-0 bg-success badge">$0.14</div>
+                <div class="position-absolute top-0 end-0 bg-danger badge">6515</div>
+                <div class="card-footer bg-dark text-light position-absolute bottom-0 start-0 bg-opacity-75 fs-6 lh-1" style="width: 100%;">T500mA 0.5A 250V Rectangular Fuse</div>
+              </div>
+              
+          </div> </div>
+          <div class="col-lg-3 col-md-6 col-sm-12" (click)="goToItemD('2')" (mouseover)="Onfocus(2)" (mouseout)="Away(2)">
+            <div class="card mb-5 bg-white rounded" [ngClass]="status2 && num==2?['shadow-lg','border-primary','inhover']:'dummy_class'">
+             
+              <img src="../../assets/images/2.jpg" class="card-img img-fluid" alt="2" id="2.jpg">
+                <div class="card-img-overlay">
+                  <div class="position-absolute top-0 start-0 bg-success badge">$0.14</div>
+                  <div class="position-absolute top-0 end-0 bg-danger badge">5552</div>
+                  <div class="card-footer bg-dark text-light position-absolute bottom-0 start-0 bg-opacity-75 fs-6 lh-1" style="width: 100%;">T6.3A 250V Rectangular Fuse</div>
+                </div>
+             
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12" (click)="goToItemD('3')" (mouseover)="Onfocus(3)" (mouseout)="Away(3)">
+            <div class="card mb-5 bg-white rounded" [ngClass]="status2 && num==3?['shadow-lg','border-primary','inhover']:'dummy_class'">
+              <img src="../../assets/images/3.jpg" class="card-img img-fluid" alt="3" id="3.jpg">
+              <div class="card-img-overlay">
+                <div class="position-absolute top-0 start-0 bg-success badge">$0.14</div>
+                <div class="position-absolute top-0 end-0 bg-danger badge">5551</div>
+                <div class="card-footer bg-dark text-light position-absolute bottom-0 start-0 bg-opacity-75 fs-6 lh-1" style="width: 100%;">T5A 250V Rectangular Fuse</div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12" (click)="goToItemD('4')" (mouseover)="Onfocus(4)" (mouseout)="Away(4)">
+            <div class="card mb-5 bg-white rounded" [ngClass]="status2 && num==4?['shadow-lg','border-primary','inhover']:'dummy_class'">
+             
+              <img src="../../assets/images/4.jpg" class="card-img img-fluid" alt="4" id="4.jpg">
+                <div class="card-img-overlay">
+                  <div class="position-absolute top-0 start-0 bg-success badge">$0.14</div>
+                  <div class="position-absolute top-0 end-0 bg-danger badge">5550</div>
+                  <div class="card-footer bg-dark text-light position-absolute bottom-0 start-0 bg-opacity-75 fs-6 lh-1" style="width: 100%;">T4A 250V Rectangular Fuse</div>   
+                </div>
+                
+              </div>
+          </div>
+           </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12" (click)="goToItemD('5')" (mouseover)="Onfocus(5)" (mouseout)="Away(5)">
+          <div class="card mb-5 bg-white rounded" [ngClass]="status2 && num==5?['shadow-lg','border-primary','inhover']:'dummy_class'">
+              <img src="../../assets/images/5.jpg" class="card-img img-fluid" alt="5" id="5.jpg">
+            <div class="card-img-overlay">
+              <div class="position-absolute top-0 start-0 bg-success badge">$0.14</div>
+              <div class="position-absolute top-0 end-0 bg-danger badge">5549</div>
+              <div class="card-footer bg-dark text-light position-absolute bottom-0 start-0 bg-opacity-75 fs-6 lh-1" style="width: 100%;">T3.15A 250V Rectangular Fuse</div>
+            </div>
+            
+        </div> </div>
+        <div class="col-lg-3 col-md-6 col-sm-12" (click)="goToItemD('6')" (mouseover)="Onfocus(6)" (mouseout)="Away(6)">
+          <div class="card mb-5 bg-white rounded" [ngClass]="status2 && num==6?['shadow-lg','border-primary','inhover']:'dummy_class'">
+           
+              <img src="../../assets/images/6.jpg" class="card-img img-fluid" alt="6" id="6.jpg" >
+              <div class="card-img-overlay">
+                <div class="position-absolute top-0 start-0 bg-success badge">$0.14</div>
+                <div class="position-absolute top-0 end-0 bg-danger badge">5548</div>
+                <div class="card-footer bg-dark text-light position-absolute bottom-0 start-0 bg-opacity-75 fs-6 lh-1" style="width: 100%;">T2A 250V Rectangular Fuse</div>
+              </div>
+           
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12" (click)="goToItemD('7')" (mouseover)="Onfocus(7)" (mouseout)="Away(7)">
+          <div class="card mb-5 bg-white rounded" [ngClass]="status2 && num==7?['shadow-lg','border-primary','inhover']:'dummy_class'">
+              <img src="../../assets/images/7.jpg" class="card-img img-fluid" alt="7" id="7.jpg">
+            <div class="card-img-overlay">
+              <div class="position-absolute top-0 start-0 bg-success badge">$0.14</div>
+              <div class="position-absolute top-0 end-0 bg-danger badge">5547</div>
+              <div class="card-footer bg-dark text-light position-absolute bottom-0 start-0 bg-opacity-75 fs-6 lh-1" style="width: 100%;">T1A 250V Rectangular Fuse</div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12" (click)="goToItemD('8')" (mouseover)="Onfocus(8)" (mouseout)="Away(8)">
+          <div class="card mb-5 bg-white rounded" [ngClass]="status2 && num==8?['shadow-lg','border-primary','inhover']:'dummy_class'">
+           
+              <img src="../../assets/images/8.jpg" class="card-img img-fluid" alt="8" id="8.jpg">
+              <div class="card-img-overlay">
+                <div class="position-absolute top-0 start-0 bg-success badge">$0.26</div>
+                <div class="position-absolute top-0 end-0 bg-danger badge">4517</div>
+                <div class="card-footer bg-dark text-light position-absolute bottom-0 start-0 bg-opacity-75 fs-6 lh-1" style="width: 100%;">500mA PPTC Resettable Fuses</div>
+              </div>
+              
+            </div>
+        </div>
+        
+       
+       
+      </div>
+     
+    </div>
+</div>
